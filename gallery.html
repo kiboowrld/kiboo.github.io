@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche Model Gallery | Exclusive Selection</title>
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+</head>
+<body>
+    <nav>
+        <ul>
+            <img src="img/logo.jpg" class="nav-logo" alt="Porsche Logo">
+            <li><a href="index.html">Home</a></li>
+			<li><a href="confiq.html">Customs</a></li>
+            <li>
+                <div class="search-container">
+                    <input type="text" id="carSearch" placeholder="Search Porsche models..." onkeyup="searchCars()">
+                    <i class="fas fa-search"></i>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    
+    <header id="home">
+        <img src="img/logo.jpg" class="logo" alt="Porsche Logo">
+        <h1>The Porsche Collection</h1>
+        <p>Discover our exclusive range of precision-engineered vehicles, each representing the pinnacle of automotive excellence.</p>
+    </header>
+    
+    <section id="models">
+        <h2>Our Models</h2>
+        <p>Explore the Porsche lineup, from our legendary sports cars to our premium SUVs - each designed to deliver an unforgettable driving experience.</p>
+        
+        <div class="cars-container">
+            <div class="car" data-name="Taycan">
+                <h3>Taycan Turbo S</h3>
+                <img src="img/03.jpg" alt="Porsche Taycan">
+                <p>Electric performance redefined</p>
+                <div class="specs">
+                    <p><i class="fas fa-bolt"></i> 750 hp</p>
+                    <p><i class="fas fa-tachometer-alt"></i> 0-60 mph: 2.6s</p>
+                </div>
+            </div>
+            
+            <div class="car" data-name="Cayenne">
+                <h3>Cayenne Turbo GT</h3>
+                <img src="img/02.jpg" alt="Porsche Cayenne">
+                <p>The ultimate performance SUV</p>
+                <div class="specs">
+                    <p><i class="fas fa-bolt"></i> 631 hp</p>
+                    <p><i class="fas fa-tachometer-alt"></i> 0-60 mph: 3.1s</p>
+                </div>
+            </div>
+            
+            <div class="car" data-name="911 GT3 RS">
+                <h3>911 GT3 RS</h3>
+                <img src="img/911-white.jpg" alt="Porsche 911 GT3 RS">
+                <p>Track-focused excellence</p>
+                <div class="specs">
+                    <p><i class="fas fa-bolt"></i> 518 hp</p>
+                    <p><i class="fas fa-tachometer-alt"></i> 0-60 mph: 3.0s</p>
+                </div>
+            </div>
+            
+            <div class="car" data-name="Macan">
+                <h3>Macan GTS</h3>
+                <img src="img/macan.jpg" alt="Porsche Macan">
+                <p>Sports car DNA in an SUV</p>
+                <div class="specs">
+                    <p><i class="fas fa-bolt"></i> 434 hp</p>
+                    <p><i class="fas fa-tachometer-alt"></i> 0-60 mph: 4.1s</p>
+                </div>
+            </div>
+            
+            <div class="car" data-name="Boxster">
+                <h3>718 Boxster GTS 4.0</h3>
+                <img src="img/boxster.jpg" alt="Porsche Boxster">
+                <p>Open-top perfection</p>
+                <div class="specs">
+                    <p><i class="fas fa-bolt"></i> 394 hp</p>
+                    <p><i class="fas fa-tachometer-alt"></i> 0-60 mph: 4.3s</p>
+                </div>
+            </div>
+            
+            <div class="car" data-name="Speedster">
+                <h3>911 Speedster</h3>
+                <img src="img/Spyder.jpg" alt="Porsche Speedster">
+                <p>Modern classic roadster</p>
+                <div class="specs">
+                    <p><i class="fas fa-bolt"></i> 502 hp</p>
+                    <p><i class="fas fa-tachometer-alt"></i> 0-60 mph: 3.8s</p>
+                </div>
+				    </div>
+		
+		<div class="car" data-name="2024 718 Spyder">
+		    <h3>718 spyder</h3>
+		    <img src="img/718-white.jpg" alt="2024 Porsche Spyder">
+		    <p>All new spyder</p>
+		    <div class="specs">
+		        <p><i class="fas fa-bolt"></i> 420 hp</p>
+		        <p><i class="fas fa-tachometer-alt"></i> 0-60 mph: 4.0s</p>
+			</div>
+			    </div>
+				  </div>
+   
+	</section>
+   
+    <section id="contact">
+        <h2>Begin Your Porsche Journey</h2>
+        <p>Contact our concierge team for a personalized consultation:</p>
+        
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <select name="interest">
+                <option value="">I'm interested in...</option>
+                <option value="911">911 Series</option>
+                <option value="taycan">Taycan</option>
+                <option value="suv">Cayenne/Macan</option>
+                <option value="718">718 Series</option>
+                <option value="other">Other Models</option>
+            </select>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Request Consultation</button>
+        </form>
+        
+        <div class="direct-contact">
+            <p>Or contact us directly:</p>
+            <ul>
+                <li><i class="fas fa-envelope"></i> kiboo@porsche-exclusive.com</li>
+                <li><i class="fas fa-phone"></i> +86 177 9013 0167</li>
+                <li><i class="fas fa-map-marker-alt"></i> Worldwide Porsche Centers</li>
+            </ul>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Kiboo Exclusive Showroom. All rights reserved.  | This wwebsite is made for schoolwork,
+		all assets on this website is belongs to Porsche.</p>
+    </footer>
+
+   <script src="gallery.js"></script>
+   
+</body>
+</html>
